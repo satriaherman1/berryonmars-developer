@@ -1,0 +1,42 @@
+.button{
+    padding: 10px 28px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+.button-bordered{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    transition: .3s;
+    color: #fff;
+}
+
+.button-bordered:hover{
+    background: #fff;
+    color: #333;
+}
+
+.button-green{
+    background: var(--colorGreen);
+    color: #fff;
+}
+
+.button-green:hover{
+    background: var(--colorLightGreen);
+}
+
+.button-transparent{
+    color: unset;
+    background: transparent;
+}
+
+.button-transparent:hover{
+    background: rgb(29, 29, 29);
+}
+
+
