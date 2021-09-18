@@ -9,11 +9,6 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background: #000;
-    background-image: url('../img/background.svg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .h-fit{
@@ -38,8 +33,17 @@ h1,h2,h3,h4,h5{
     font-weight: 700;
 }
 
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 24px;
+}
+
 h6{
     font-size: 18px;
+    line-height: 160%;
 }
 
 p{
@@ -53,5 +57,12 @@ p{
 @media screen and (min-width : 768px) {
     h1{
         font-size: 72px;
+    }
+    h2{
+        font-size: 64px;
+    }
+
+    h3{
+        font-size: 32px;
     }
 }
