@@ -71,11 +71,86 @@ nav{
     background-size: cover;
 }
 
+.grid-card{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-card .slick-list.draggable{
+    padding: 0 !important;
+}
+
+.card-section1{
+    height: fit-content;
+    margin: 0 auto;
+    max-width: 370px;
+    border-image-source: linear-gradient(to left , rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(64px);
+    padding: 34px 32px;
+    border-radius: 16px;
+    margin-left: 20px !important;
+}
+
+
+.card-section1:first-child{
+    margin-left: unset;
+}
+
+.card-icon-box{
+    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.list-line{
+    background: url('../img/icon/line-list.svg');
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
 /* end section1 */
+
+/* section 3 */
+.section3{
+    background-image: url('../img/bg-section4.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.section3-card-container{
+    overflow-x: scroll;
+}
+
+.section3-card{
+    padding: 36px 24px;
+    border-image-source: linear-gradient(to left , rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(64px);
+    width: 277px;
+    min-width: 277px;
+    height: 256px;
+    border-radius: 16px;
+}
+
+/* end section 3 */
+
+
+/* section 4 */
+.talent-box{
+    background-color: #000;
+    background-image: url('../img/bg-talent.svg');
+    background-position: center center;
+    background-size: cover;
+  
+}
+
+/* end section 4 */
 
 @media screen and (min-width:1024px) {
     .section1{
-        background-position: center top;
+        background-position: center center;
     }
 }
 
@@ -111,10 +186,41 @@ nav{
     }
 
     #heroImg{
-        margin-bottom: unset;
+        margin: inset;
     }
     /* end header */
 
+    /* section1 */
+
+    .grid-card div:nth-child(2) .card-section1{
+        margin-top: 14vh;
+    }
+    .grid-card div:nth-child(3) .card-section1{
+        margin-top: -10vh;
+    }
+    .grid-card div:nth-child(4) .card-section1{
+        margin-top: 4vh;
+    }
+
+    .grid-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* end section1 */
+
+    /* section 3 */
+    .section3-card-container{
+        overflow: unset;
+    }
+    /* end section 3 */
+
+    /* section 4 */
+    .talent-box{
+        padding: 116px 0;
+        border-radius: 30px;
+    }
+
+    /* end section 4 */
    
 }
 

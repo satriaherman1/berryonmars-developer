@@ -54,6 +54,10 @@ p{
     border-top: 1.8px solid #adadad;
 }
 
+.special-padding{
+    padding: 46px 0;
+}
+
 @media screen and (min-width : 768px) {
     h1{
         font-size: 72px;
@@ -64,5 +68,9 @@ p{
 
     h3{
         font-size: 32px;
+    }
+
+    .special-padding{
+        padding: 126px 0;
     }
 }
