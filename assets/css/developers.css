@@ -148,6 +148,15 @@ nav{
 
 /* end section 4 */
 
+
+/* faq */
+.faq-link div{
+    padding: 20px 9px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* end faq */
+
 @media screen and (min-width:1024px) {
     .section1{
         background-position: center center;
