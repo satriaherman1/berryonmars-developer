@@ -17,6 +17,10 @@ body{
    
 }
 
+.border-box{
+    box-sizing: border-box;
+}
+
 .opacity-30{
     opacity: .3;
 }
