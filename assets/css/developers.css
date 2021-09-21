@@ -143,7 +143,8 @@ nav{
     background-image: url('../img/bg-talent.svg');
     background-position: center center;
     background-size: cover;
-  
+    padding: 40px 25px;
+    border-radius: 9px;
 }
 
 /* end section 4 */
@@ -155,11 +156,41 @@ nav{
     border-bottom: 1px solid #dddddd;
 }
 
+.faq-desc{
+    padding: 2px 9px;
+}
+
+.faq-link , .faq-link:hover{
+    color: #060D20;
+    font-weight: 600;
+}
+
+.faq-link img{
+    transition: .3s;
+}
+
+.rotate180{
+    transform: rotate(180deg);
+}
+
 /* end faq */
+
+footer{
+    background-image: url('../img/footer-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 220px 80px 20px;
+}
 
 @media screen and (min-width:1024px) {
     .section1{
         background-position: center center;
+    }
+
+    footer{
+        padding-top: 362px;
+        padding-bottom: 120px;
     }
 }
 

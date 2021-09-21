@@ -5,14 +5,28 @@
     --colorLightGreen : rgb(17, 146, 54);
     --colorSemiBlack : #111111;
     --colorOptionHover : #202020;
+    --colorBlueGray : #8193B2;
+}
+
+html,body{
+    overflow-x: hidden;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
+   
+}
+
+.opacity-30{
+    opacity: .3;
 }
 
 .h-fit{
     height: fit-content !important;
+}
+
+.w-fit{
+    width: fit-content !important;
 }
 
 a{
@@ -37,7 +51,7 @@ h2{
     font-size: 40px;
 }
 
-h3{
+h4,h3{
     font-size: 24px;
 }
 
@@ -67,8 +81,14 @@ p{
     }
 
     h3{
+        font-size: 40px;
+    }
+
+    h4{
         font-size: 32px;
     }
+
+
 
     .special-padding{
         padding: 126px 0;
