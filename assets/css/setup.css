@@ -48,6 +48,7 @@ a.button-green{
 }
 
 h1,h2,h3,h4,h5{
+    line-height: 140%;
     font-weight: 700;
 }
 

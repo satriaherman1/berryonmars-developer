@@ -67,7 +67,7 @@ nav{
 .section1{
     background-image: url('../img/bg-section1.svg');
     background-repeat: no-repeat;
-    background-position: center 17vh;
+    background-position: center 34vh;
     background-size: cover;
 }
 
@@ -77,6 +77,18 @@ nav{
 }
 .grid-card .slick-list.draggable{
     padding: 0 !important;
+}
+
+.grid-card ul.slick-dots li button::before{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    opacity: .5;
+}
+
+.grid-card ul.slick-dots li.slick-active button::before{
+    color: #fff;
+    opacity: 1;
 }
 
 .card-section1{
@@ -108,6 +120,16 @@ nav{
     height: 404px;
 }
 /* end section1 */
+
+/* section 2 */
+.section2{
+    background-image: url('../img/bg-section2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 80vh;
+}
+
+/* end section2 */
 
 /* section 3 */
 .section3{
@@ -196,7 +218,8 @@ footer{
     }
     
     .list-line img{
-        height: 454px;
+        margin-top: 12px;
+        height: 445px;
     }
 }
 
@@ -253,6 +276,12 @@ footer{
         grid-template-columns: repeat(2, 1fr);
     }
     /* end section1 */
+
+    /* section2 */
+    .section2{
+        background-position: center right;
+    }
+    /* end section 2 */
 
     /* section 3 */
     .section3-card-container{
