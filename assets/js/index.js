@@ -9,13 +9,33 @@ window.onload = function(){
             dots: true,
             infinite: false,
             speed: 300,
-            centerMode : true,
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 540,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                }
+                
+            ]
+        
         })
     }
- console.log(window.innerWidth)
 }
 
 const faqLink = document.querySelectorAll('.faq-link')
@@ -30,5 +50,4 @@ faqLink.forEach((faq) => {
        faq.querySelector('img').classList.toggle('rotate180')
     }
 })
-
 

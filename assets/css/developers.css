@@ -100,7 +100,8 @@ nav{
     backdrop-filter: blur(64px);
     padding: 34px 32px;
     border-radius: 16px;
-    margin-left: 20px !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
 }
 
 
@@ -208,24 +209,7 @@ footer{
     box-sizing: border-box;
 } */
 @media screen and (min-width:1024px) {
-    .section1{
-        background-position: center center;
-    }
-
-    footer{
-        padding-top: 362px;
-        padding-bottom: 120px;
-    }
-    
-    .list-line img{
-        margin-top: 12px;
-        height: 445px;
-    }
-}
-
-@media screen and (min-width:768px) {
-    /* header */
-    nav{
+     nav{
         height: fit-content;
     }
     .nav-container{
@@ -253,13 +237,10 @@ footer{
         margin-top: 0;
         margin-left: 72px;
     }
-
-    #heroImg{
-        margin: inset;
-    }
-    /* end header */
-
     /* section1 */
+    .section1{
+        background-position: center center;
+    }
 
     .grid-card div:nth-child(2) .card-section1{
         margin-top: 14vh;
@@ -277,6 +258,36 @@ footer{
     }
     /* end section1 */
 
+    footer{
+        padding-top: 362px;
+        padding-bottom: 120px;
+    }
+    
+    .list-line img{
+        margin-top: 12px;
+        height: 445px;
+    }
+
+    .talent-box{
+        padding: 116px 0;
+    }
+
+    .section3-card-container{
+        overflow: unset;
+    }
+}
+
+@media screen and (min-width:768px) {
+    /* header */
+   
+
+    #heroImg{
+        margin: inset;
+    }
+    /* end header */
+
+    
+
     /* section2 */
     .section2{
 
@@ -285,14 +296,11 @@ footer{
     /* end section 2 */
 
     /* section 3 */
-    .section3-card-container{
-        overflow: unset;
-    }
+
     /* end section 3 */
 
     /* section 4 */
     .talent-box{
-        padding: 116px 0;
         border-radius: 30px;
     }
 
