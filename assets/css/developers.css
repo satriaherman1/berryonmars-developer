@@ -10,7 +10,7 @@ header{
 nav{
     padding: 20px 8px;
     height: 100vh;
-    max-height: 14vh;
+    max-height: 12vh;
     overflow-y: hidden;
     transition: .2s;
 }
@@ -318,7 +318,9 @@ footer{
 
 @media screen and (min-width:768px) {
     /* header */
- 
+    nav{
+        max-height: 9vh;
+    }
 
     #heroImg{
         margin: inset;
