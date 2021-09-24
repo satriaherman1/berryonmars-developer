@@ -32,6 +32,7 @@ body{
 
 .w-fit{
     width: fit-content !important;
+    width: -moz-fit-content !important;
 }
 
 a{

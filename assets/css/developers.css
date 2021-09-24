@@ -9,6 +9,10 @@ header{
 
 nav{
     padding: 20px 8px;
+    height: 100vh;
+    max-height: 14vh;
+    overflow-y: hidden;
+    transition: .2s;
 }
 
 .nav-container{
@@ -31,13 +35,6 @@ nav{
 .menu-list ul li{
     margin-top: 30px;
     list-style: none;  
-}
-
-nav{
-    height: 100vh;
-    max-height: 10vh;
-    overflow-y: hidden;
-    transition: .2s;
 }
 
 .nav-left .menu-list{
