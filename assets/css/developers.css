@@ -93,6 +93,7 @@ nav{
 
 .card-section1{
     height: fit-content;
+    height: -moz-fit-content;
     margin: 0 auto;
     max-width: 370px;
     border-image-source: linear-gradient(to left , rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
@@ -145,7 +146,9 @@ nav{
 .card-icon-box{
     padding: 15px;
     height: fit-content;
+    height: -moz-fit-content;
     width: fit-content;
+    width: -moz-fit-content;
     border-radius: 10px;
     background: #fff;
 }
@@ -243,12 +246,15 @@ footer{
 } */
 @media screen and (min-width:1024px) {
      nav{
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
         overflow-y: unset;
     }
     .nav-container{
         display: flex;
         height: fit-content;
+        height: -moz-fit-content;
         flex-direction: row;
         justify-content: space-between;
     }
