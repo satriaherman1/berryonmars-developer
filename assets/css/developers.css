@@ -150,9 +150,36 @@ nav{
     background: #fff;
 }
 
-.list-line img{
-    height: 404px;
+
+.list-line{
+    margin-top: 7px;
+    margin-right: 20px;
 }
+.list-line .line{
+    height: 100%;
+    width: 3px;
+    background-color: rgb(221, 221, 221);
+    margin: auto;
+}
+
+.list-line .line.last{
+    background: unset;
+    border-right: 3px dashed rgb(221, 221, 221);
+}
+
+.list-line .line-divider{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 3px solid rgb(221, 221, 221);
+}
+
+.list-line .line-divider.last{
+    background-color: rgb(221, 221, 221);
+}
+
 /* end section1 */
 
 /* section 2 */
