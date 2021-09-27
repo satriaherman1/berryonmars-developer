@@ -33,3 +33,7 @@
 .txt-green{
     color: var(--colorGreen);
 }
+
+.txt-back{
+    color: var(--colorBlack);
+}

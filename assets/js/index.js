@@ -3,7 +3,7 @@ const openNav = () => {
     nav.classList.toggle('open-nav')
 }
 
-window.onload = function(){
+const showSlick = () => {
     if(window.matchMedia('(max-width: 768px)').matches){
         $('.grid-card').slick({
             dots: true,
@@ -38,11 +38,16 @@ window.onload = function(){
     }
 }
 
+window.onload = function(){
+    showSlick()
+}
+
+window.onresize = function(){
+    showSlick()
+}
+
 const faqLink = document.querySelectorAll('.faq-link')
 
-const faqAction = (el) => {
-    console.log(el)
-}
 
 faqLink.forEach((faq) => {
   
